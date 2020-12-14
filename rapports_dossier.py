@@ -40,6 +40,7 @@ if os.path.isdir(folder):
                 mois = str(int(worksheet.cell_value(1, 7)))
                 jour = str(int(worksheet.cell_value(1, 8)))
                 caisse = str(int(worksheet.cell_value(4, 7)))
+                numero_ecriture = str(int(worksheet.cell_value(2, 2)))
                 for i in range(5, 71):
                     # write row or not
                     if worksheet.cell_value(i, 12) == 1:
@@ -56,8 +57,6 @@ if os.path.isdir(folder):
                             section = str(int(worksheet.cell_value(i, 10)))
                         else:
                             section = str(worksheet.cell_value(i, 10))
-
-                        numero_ecriture = '777'
 
                         if worksheet.cell_value(i, 8) != '':
                             code_tva = str(int(worksheet.cell_value(i, 8)))

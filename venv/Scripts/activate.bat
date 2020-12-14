@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\yannc\PycharmProjects\xlsxTOcsv\venv
+set VIRTUAL_ENV=C:\Users\yancla\Documents\GitHub\xlsx_to_csv\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

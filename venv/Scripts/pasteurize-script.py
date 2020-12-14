@@ -1,4 +1,4 @@
-#!C:\Users\yannc\PycharmProjects\xlsxTOcsv\venv\Scripts\python.exe
+#!C:\Users\yancla\Documents\GitHub\xlsx_to_csv\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'future==0.18.2','console_scripts','pasteurize'
 import re
 import sys
