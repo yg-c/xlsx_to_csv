@@ -12,7 +12,7 @@ empty = ''
 dot = '.'
 
 print('\n' + '-- Tchôôôôôô --' + '\n')
-print('\n' + '-- Comptabilisation rapport de caisse --' + '\n')
+print('-- Comptabilisation rapport de caisse --' + '\n')
 folder = input('Chemin du dossier: ')
 print('\n' + '-- lecture du dossier --' + '\n')
 # directory control
