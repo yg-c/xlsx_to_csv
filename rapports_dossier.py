@@ -11,7 +11,7 @@ end = '0,0,0,0,0,0,0,0,E'
 empty = ''
 dot = '.'
 
-print('\n' + '-- Comptabilisation rapport de caisse </> with <3 by yancla  --' + '\n')
+print('\n' + '-- Comptabilisation rapport de caisse </> with <3 by yancla 2021 --' + '\n')
 folder = input('Chemin du dossier: ')
 print('\n' + '-- lecture du dossier --' + '\n')
 # directory control
