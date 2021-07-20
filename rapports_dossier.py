@@ -1,5 +1,6 @@
 import os
 import xlrd
+import getpass
 
 # constants
 mandant = '3963'
@@ -10,9 +11,10 @@ separator = ','
 end = '0,0,0,0,0,0,0,0,E'
 empty = ''
 dot = '.'
+username = getpass.getuser()
 
-print('\n' + '-- Tchôôôôôô --' + '\n')
 print('-- Comptabilisation rapport de caisse --' + '\n')
+print('Tchôôôôôô ' + username)
 folder = input('Chemin du dossier: ')
 print('\n' + '-- lecture du dossier --' + '\n')
 # directory control
