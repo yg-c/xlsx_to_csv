@@ -11,7 +11,8 @@ end = '0,0,0,0,0,0,0,0,E'
 empty = ''
 dot = '.'
 
-print('\n' + '-- Comptabilisation rapport de caisse </> with <3 by yancla 2021 --' + '\n')
+print('\n' + '-- Tchôôôôôô --' + '\n')
+print('\n' + '-- Comptabilisation rapport de caisse --' + '\n')
 folder = input('Chemin du dossier: ')
 print('\n' + '-- lecture du dossier --' + '\n')
 # directory control
@@ -104,6 +105,7 @@ if os.path.isdir(folder):
 else:
     print('-- dossier non valide --')
 
+print('\n' + '-- <\> by yancla --' + '\n')
 input()
 
 # C:\Users\yannc\Desktop\tmp
