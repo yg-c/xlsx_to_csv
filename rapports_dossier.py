@@ -13,7 +13,7 @@ empty = ''
 dot = '.'
 username = getpass.getuser()
 
-print('-- Comptabilisation rapport de caisse --' + '\n')
+print('-- Comptabilisation dossier rapport de caisse --' + '\n')
 print('Tchôôôôôô ' + username)
 folder = input('Chemin du dossier: ')
 print('\n' + '-- lecture du dossier --' + '\n')
